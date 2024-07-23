@@ -1,5 +1,5 @@
 import argparse
-from google_maps_scraper import scrape_google_maps_reviews, parse_google_maps_reviews, save_reviews_to_csv
+from google_maps_scraper.google_maps_scraper import scrape_google_maps_reviews, parse_google_maps_reviews, save_reviews_to_csv
 
 def main(url, restaurant_name):
     # Scrape the reviews
